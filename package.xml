@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Apptha_Autocomplete</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Search autocomplete helps to list out the suggestions related to product details which is typed in the search box. The user can manage the search results based on product name, description, price, in stock, out stock and meta keywords.</summary>
+    <description>Search autocomplete helps to list out the suggestions related to product details which is typed in the search box. The user can manage the search results based on product name, description, price, in stock, out stock and meta keywords.</description>
+    <notes>Search autocomplete helps to list out the suggestions related to product details which is typed in the search box. The user can manage the search results based on product name, description, price, in stock, out stock and meta keywords.</notes>
+    <authors><author><name>apptha</name><user>apptha</user><email>info@apptha.com</email></author></authors>
+    <date>2015-07-28</date>
+    <time>10:05:48</time>
+    <contents><target name="magelocal"><dir name="Apptha"><dir name="Autosuggestion"><dir name="Block"><file name="Index.php" hash="e48fc8f985e0d55af24548ea5bbe227a"/></dir><dir name="Helper"><file name="Data.php" hash="63023fa9f5bcf8cd0006daac3ad2828b"/></dir><dir name="controllers"><file name="IndexController.php" hash="941496334e053e80b9c3c5b97e6d2137"/></dir><dir name="etc"><file name="adminhtml.xml" hash="a76c0d7543c8d361bcdb7ea879feb6d4"/><file name="config.xml" hash="2bb4e177ebd14444a232d7dacef28a6d"/><file name="system.xml" hash="cc3f1801dbee11cd71ba84c26f97c1e5"/></dir></dir></dir><dir name="Mage"><dir name="Adminhtml"><dir name="Model"><file name="Appthasettings.php" hash="ebc7200a51e34ac87cb0e8d9ee3c3eb9"/><file name="Autosuggestionoption.php" hash="0393d6410ff59a0cd86536f3e2b5b347"/><file name="Stockoption.php" hash="b20a48274e080f22dd64112baf992234"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="autosuggestion.xml" hash="65bfbeb8505dc448b79f66280b8e2a94"/></dir><dir name="template"><dir name="autosuggestion"><file name="index.phtml" hash="7241a34a1e07ea5eb5d4d49e9abeb31d"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Apptha_Autosuggestion.xml" hash="31b7a07128a44fea66f59e74d260714d"/></dir></target><target name="mage"><dir name="js"><dir name="autosuggestion"><file name="jquery-1.3.2.min.js" hash="7a4d0aabde0a672455406b136dd715cf"/><file name="jquery.autocomplete-min.js" hash="ecdc24b67a391272828d04d210044ea8"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
